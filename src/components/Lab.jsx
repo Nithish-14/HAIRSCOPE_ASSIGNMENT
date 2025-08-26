@@ -59,9 +59,9 @@ function Lab({ onExit, remaining, phase }) {
 
     
         <div className="w-3/4 grid grid-cols-4 gap-6 p-6 bg-black relative">
-          {labs.map((lab, idx) => (
+          {labs.map((lab, index) => (
             <div
-              key={idx}
+              key={index}
               className="flex items-center justify-center border-2 border-cyan-500 rounded-lg p-6 hover:bg-cyan-500/20 transition"
             >
               <img
